@@ -1,0 +1,43 @@
+----------------------------------------
+For Intalling Git in Ubuntu
+----------------------------------------
+
+Use the apt package management tools to update your local package index.
+
+$ sudo apt update
+
+After the update, download Git with the following command
+
+$ sudo apt install git
+
+You would be prompted to enter your password. Enter your password and proceed
+
+In order to check which version of git is install in your system or whether it is installed correctly or not, run the following command:
+
+$ git --version
+
+You should get an output similar to this:
+
+git version 2.17.1
+
+------------------------------------------
+For setting up Git in Ubuntu
+------------------------------------------
+
+In your terminal, type the following command
+
+1) $ git config --global user.name "your_username"
+
+Give your username without double apostrophes.
+
+2) Next type the following command
+
+$ git config --global user.email "your_emailid"
+
+Give your emailid without double apostrophes.
+
+The username is the user name of your github account in www.github.com
+
+The email id is that email id which is associated with your github account.
+
+ 
